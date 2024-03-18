@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "compile": "graphql-codegen --require dotenv/config --config codegen.ts dotenv_config_path=.env.local"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.6",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "autoprefixer": "10.4.17",
+    "chart.js": "^4.4.2",
+    "graphql": "^16.8.1",
+    "next": "latest",
+    "postcss": "8.4.33",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.2.4",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "encoding": "^0.1.13"
+  }
+}
